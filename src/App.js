@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import Nav from './componants/Nav'
 import Blog from './componants/Blog'
+import Footer from './componants/Footer'
 
 const blogs = [
   {
@@ -54,6 +55,7 @@ function App() {
           return <Blog key={blog.tags} blog={blog} />
         })}
       </div>
+      <Footer />
     </div>
   )
 }
