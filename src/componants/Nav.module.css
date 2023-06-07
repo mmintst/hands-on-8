@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.logo {
+
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    width: 40%;
+    justify-content: space-around;
+}
+
+
+
