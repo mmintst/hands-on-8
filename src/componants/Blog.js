@@ -7,7 +7,7 @@ const Blog = (props) => {
   return (
     <div className={classes.blog}>
       <div className={classes.blogInfo}>
-        <p>{blog.author}</p>
+        <p className={classes.blogAuthor}>{blog.author}</p>
         <p>{blog.date}</p>
         <p>{blog.readingTime}</p>
       </div>
